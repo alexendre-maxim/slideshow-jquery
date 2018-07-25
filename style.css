@@ -1,0 +1,79 @@
+.slider{
+    background-color: #757575;
+    padding: 60px 50px 10px 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.menuSlider ul{
+    list-style: none;
+}
+
+.menuSlider ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menuSlider ul .disableImg{
+    display: none;
+}
+
+.menuSlider ul li img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.left{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.left img,
+.right img{
+    width: 40px;
+}
+
+.right{
+    position: absolute;
+    top: 380px;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    margin-right: 80px;
+    
+} 
+
+.informations{
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+
+.informations h3{
+    margin-bottom: 20px;
+    
+}
+
+.infomrations p{
+    margin-bottom: 20px;
+}
+
+.informations button{
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    width: 100px;
+    border: 5px;
+
+}
